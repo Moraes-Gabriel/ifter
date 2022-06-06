@@ -1,0 +1,21 @@
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+server:
+  error:
+    include-message: always
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/ifter}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:admin}
+  jpa:
+    hibernate:
+      #ddl-auto: create-drop
+      #ddl-auto: none
+      #ddl-auto: validate
+      ddl-auto: update
+  session:
+    store-type: jdbc
+    timeout: 1200

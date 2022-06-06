@@ -1,0 +1,46 @@
+
+.postar_div-postar {
+    
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.postar_div-postar img{
+
+    height: 50px;
+
+}
+.postar_div-photoPerfil-input {
+    display: flex;
+    align-items: center;
+}
+.postar_div-photoPerfil-input img{
+    display: flex;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+.postar_div-photoPerfil-input input{
+    background-color: rgb(21,32,43);
+    color: white;
+    font-size: 24px;
+    width: 100%;
+}
+.postar_div-imgs-post-submit {
+    display: flex;
+    margin-left: 70px;
+    justify-content: space-between;
+}
+.postar_div-imgs-post-submit img {
+  margin-right: 5px;
+  height: 25px;
+
+}
+.comment-form{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: center;
+    width: 80%;
+}

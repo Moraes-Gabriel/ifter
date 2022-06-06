@@ -1,0 +1,78 @@
+.post_div-main {
+  width: 100%;
+  border-radius: 20px;
+  border-top: grey 2px solid;
+  border-right: grey 2px solid;
+  border-left: grey 2px solid;
+  margin-bottom: 10px;
+  position: relative;
+}
+.post_button {
+  border: none;
+  width: 100%;
+  min-height: 80px;
+  background: none;
+  flex-direction: row;
+  display: flex;
+  color: grey;
+  padding-top: 4px;
+}
+.post_button div {
+  margin-top: 5px;
+}
+.post_button-foto-perfil {
+  width: 15%;
+  background: none;
+  border-radius: 50%;
+
+}
+.post_button-foto-perfil img {
+  width: 100%;
+  border-radius: 50%;
+}
+.post_div-content {
+  margin-left: 7px;
+  
+}
+.post_div-info-person {
+  display: flex;
+}
+.post_div-info-person h1 {
+  font-size: 16px;
+  margin-right: 7px;
+}
+.post_nickName {
+  color: white;
+}
+.post_category {
+  position: absolute;
+  right: 12px;
+}
+.post_content {
+  color: white;
+  text-align: left;
+  word-wrap: break-word;
+  width: 400px;
+  margin: 0;
+}
+.post_div-actions {
+  height: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.post_div-actions button img {
+  height: 100%;
+  width: 100%;
+}
+.post_div-actions button {
+  height: 100%;
+  border: none;
+}
+
+.post_div-curtidas {
+  height: 100%;
+  display: flex;
+}
+.post_div-curtidas button {
+  margin-right: 5px;
+}
