@@ -1,0 +1,17 @@
+.utilities_div-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.utilities_div-main button{
+    background: none;
+    color: white;
+    font-size: 28px;
+    border: none;
+    margin: 10px 0;
+}
+.utilities_div-main button img{
+   height: 30px;
+   color: white;
+   margin-right: 20px;
+}

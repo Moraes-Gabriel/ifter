@@ -1,0 +1,40 @@
+.posts_div-main {
+    width: 600px;
+}
+.posts_div-postar {
+    
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.posts_div-postar img{
+
+    height: 50px;
+
+}
+.posts_div-photoPerfil-input {
+    display: flex;
+}
+.posts_div-photoPerfil-input img{
+    display: flex;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+.posts_div-photoPerfil-input input{
+    background-color: rgb(21,32,43);
+    color: white;
+    font-size: 24px;
+    width: 100%;
+}
+.posts_div-imgs-post-submit {
+    display: flex;
+    margin-left: 70px;
+    justify-content: space-between;
+}
+.posts_div-imgs-post-submit img {
+  margin-right: 5px;
+  height: 25px;
+
+}

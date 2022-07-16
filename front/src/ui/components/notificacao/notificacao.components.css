@@ -1,0 +1,64 @@
+.usuario_div-main {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.usuario_div-main {
+  width: 100%;
+}
+
+.usuario_button {
+  width: 100%;
+  background: none;
+  flex-direction: row;
+  display: flex;
+  border: 1px solid grey;
+  color: grey;
+  position: relative;
+  min-height: 75px;
+}
+.usuario_button-foto-perfil {
+  width: 20%;
+  background: none;
+  border: none;
+}
+.usuario_button-foto-perfil img {
+  width: 50%;
+  border-radius: 50%;
+}
+.usuario_div-content {
+  margin-top: 5px;
+  margin-left: 7px;
+}
+.usuario_div-info-person {
+  display: flex;
+}
+.usuario_div-info-person h1 {
+  font-size: 16px;
+  margin-right: 7px;
+}
+.usuario_nickName {
+  color: white;
+}
+.usuario_content {
+  color: white;
+}
+.usuario_button-recusar-solicitacao {
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  border-radius: 50%;
+  height: 40px;
+  background: #1d9bf0;
+  color: white;
+}
+.usuario_button-aceitar-solicitacao {
+  position: absolute;
+  right: 80px;
+  top: 20%;
+  border-radius: 50%;
+  height: 40px;
+  background: #1d9bf0;
+  color: white;
+}
